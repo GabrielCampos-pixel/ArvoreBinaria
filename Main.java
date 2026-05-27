@@ -32,5 +32,13 @@ public class Main {
         arv.inserirMusica(new Musica(33,"BMW do Sertão","Nattan & Luan Pereira",2.99));
         arv.inserirMusica(new Musica(30,"Nova Fivela","Maiara & Maraisa",3.09));
         arv.inserirMusica(new Musica(28,"Tropa do Agro","Luan Pereira & AgroPlay",2.91));
+        System.out.println("Arvore em ordem");
+        arv.imprimirEmOrdem();
+
+        arv.remover(13);
+        arv.remover(1);
+        arv.remover(7);
+        System.out.println("Arvore apos as remocoes");
+        arv.imprimirEmOrdem();
     }
 }        

@@ -1,10 +1,10 @@
 public class No {
-    int valor;
+    Musica musica;
     No esquerda;
     No direita;
 
-    public No(int valor){
-        this.valor= valor;
+    public No(Musica musica){
+        this.musica = musica;
         this.esquerda = null;
         this.direita = null;
     }
