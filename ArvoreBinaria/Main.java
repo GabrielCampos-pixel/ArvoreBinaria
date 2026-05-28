@@ -9,6 +9,8 @@ public class Main {
         arv.inserir(40);
         arv.inserir(60);
         arv.inserir(80);
+        System.out.println("Arvore em ordem");
+        arv.imprimirEmOrdem();
         System.out.println(arv.buscar(40));
         System.out.println(arv.buscar(25));  
         System.out.println(arv.buscar(70));  
